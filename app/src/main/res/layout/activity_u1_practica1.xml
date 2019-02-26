@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/im2"
+    android:orientation="vertical"
+    tools:context=".U1PRACTICA1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BiENVENIDO ANCLA BAR"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textColor="#0a0003"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/anc"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50dp"
+        />
+   <LinearLayout
+       android:layout_width="500dp"
+       android:layout_height="70dp"
+       android:orientation="horizontal"
+
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="USUARIO"
+           android:textSize="20dp"
+           android:textColor="#0a0003"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="49dp"
+           />
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="8"
+           android:background="#ffff"
+           android:layout_margin="20dp"
+           android:id="@+id/text1"
+           />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTRASEÑA"
+            android:textSize="20dp"
+            android:textColor="#0a0003"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:background="#ffff"
+            android:layout_margin="21dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ERES FELIZ      SI   "
+            android:textSize="17dp"
+            android:paddingLeft="20dp"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ACEPTAR"
+            android:id="@+id/aceptar"
+            />
+    </LinearLayout>
+
+    <!--> WRAPCONTEN se ajusta al texto <-->
+    <!--> MATCHPARENT se ajusta al padre  <-->
+    <!--> Paddin es u margen de todos los lados y margin tambien interior el pading top solo de arriba lef izquierdo y asi<-->
+    <!--> Para centrar algo es el grabity layout<-->
+</LinearLayout>
